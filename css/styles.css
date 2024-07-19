@@ -1,0 +1,147 @@
+/* Common Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebcd; /* Light peach background */
+}
+
+header {
+    background-color: #ff6347; /* Tomato color for non-post pages */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+    padding-bottom: 5rem; /* Add padding to the bottom to prevent overlap */
+}
+
+#latest-post, #blog-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#blog-thumbnails article, #latest-post article {
+    background-color: #fffacd; /* Lemon Chiffon color */
+    border: 1px solid #deb887; /* BurlyWood color */
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: rotate(-2deg);
+    position: relative;
+}
+
+#blog-thumbnails article::before, #latest-post article::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 10px;
+    background-color: #ff6347;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+#blog-thumbnails article img, #latest-post article img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #deb887; /* BurlyWood color */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#blog-thumbnails article:hover, #latest-post article:hover {
+    transform: rotate(0deg) scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Specific Styles for the Post Page */
+.post-page {
+    background-color: #add8e6; /* Light Blue background for post page */
+}
+
+.post-page header {
+    background-color: #4682b4; /* Steel Blue header for post page */
+}
+
+.post-page footer {
+    background-color: #4682b4; /* Steel Blue footer for post page */
+}
+
+#blog-post-content {
+    text-align: center;
+    max-width: 800px; /* Max width for better readability */
+    margin: 0 auto; /* Center align */
+    padding: 2rem;
+}
+
+#blog-post-content img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Limit height for large images */
+    object-fit: cover;
+    border: 2px solid #4682b4; /* Steel Blue border */
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+#blog-post-content h2, #blog-post-content p {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+#blog-post-content h2 {
+    color: #00008b; /* Dark Blue color for headings */
+}
+
+
+
+/* Button Styles */
+.read-more-button {
+    display: inline-block;
+    background-color: #4682b4; /* Steel Blue */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.read-more-button:hover {
+    background-color: #4169e1; /* Royal Blue */
+    transform: scale(1.05);
+}
+
+.read-more-button:active {
+    background-color: #1e90ff; /* Dodger Blue */
+}

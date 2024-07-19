@@ -1,0 +1,60 @@
+[
+    {
+        "title": "First Blog Post",
+        "date": "2024-07-19",
+        "image": "images/sample.jpg",
+        "summary": "This is a summary of the first blog post.",
+        "content": "Full content of the first blog post."
+    },
+    {
+        "title": "Second Blog Post",
+        "date": "2024-07-20",
+        "image": "images/sample2.jpg",
+        "summary": "This is a summary of the second blog post.",
+        "content": "Full content of the second blog post."
+    },
+    {
+        "title": "Second Blog Post",
+        "date": "2024-07-20",
+        "image": "images/sample2.jpg",
+        "summary": "This is a summary of the second blog post.",
+        "content": "Full content of the second blog post."
+    },
+    {
+        "title": "Second Blog Post",
+        "date": "2024-07-20",
+        "image": "images/sample2.jpg",
+        "summary": "This is a summary of the second blog post.",
+        "content": "Full content of the second blog post."
+    },
+    {
+        "title": "Second Blog Post",
+        "date": "2024-07-20",
+        "image": "images/sample2.jpg",
+        "summary": "This is a summary of the second blog post.",
+        "content": "Full content of the second blog post."
+    },
+    {
+        "title": "Second Blog Post",
+        "date": "2024-07-20",
+        "image": "images/sample2.jpg",
+        "summary": "This is a summary of the second blog post.",
+        "content": "Full content of the second blog post."
+    },
+    {
+        "title": "Second Blog Post",
+        "date": "2024-07-20",
+        "image": "images/sample2.jpg",
+        "summary": "This is a summary of the second blog post.",
+        "content": "Full content of the second blog post."
+    },
+    {
+        "title": "Second Blog Post",
+        "date": "2024-07-20",
+        "image": "images/sample2.jpg",
+        "summary": "This is a summary of the second blog post.",
+        "content": "Full content of the second blog post."
+    }
+]
+
+
